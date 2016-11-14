@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# Instructions to Reproduce DCTCP Experiment 
+
+>>>>>>> 6416708f7cc91986c10361cb99f63349476ee778
 ##Instructions to Reproduce
 * Total time needed to run the following set of experiments will be around 2 hours (excluding the time required to reserve resources). 
 * Sometimes it is hard to get the resources up and running. Hence I am not mentioning this time explicitly as it may vary upon the current load on the aggregates 
@@ -207,4 +212,8 @@ cat 35/client_1_20000.log | grep "CurrTime (usec): " | sed 's|CurrTime (usec): |
 > * dctcp = dctcp/1000;
 > * tcp = tcp/1000;
 > * prctile(dctcp,95);
+<<<<<<< HEAD
 > * prctile(tcp,95);
+=======
+> * prctile(tcp,95);
+>>>>>>> 6416708f7cc91986c10361cb99f63349476ee778
