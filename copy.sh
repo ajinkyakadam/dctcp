@@ -1,0 +1,10 @@
+scp -P portnumber install.sh username@c220ipaddress:~/
+scp -P portnumber install.sh username@c220ipaddress:~/
+scp -P portnumber install.sh username@c220ipaddress:~/
+scp -P portnumber install.sh username@c220ipaddress:~/
+scp -P portnumber install.sh username@c220ipaddress:~/
+scp -P portnumber install.sh username@c220ipaddress:~/
+scp -P portnumber install.sh username@c220ipaddress:~/
+scp -P portnumber install.sh username@c220ipaddress:~/
+scp -P portnumber install.sh username@c220ipaddress:~/
+scp -P portnumber install.sh username@c220ipaddress:~/

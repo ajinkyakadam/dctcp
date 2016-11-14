@@ -1,0 +1,124 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/request.xsd" type="request">
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-0" component_manager_id="urn:publicid:IDN+clemson.cloudlab.us+authority+cm" exclusive="true" component_id="urn:publicid:IDN+clemson.cloudlab.us+node+clnode088" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40941">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="clnode088.clemson.cloudlab.us" port="22" username="adk4270"/>
+      <emulab:console server="boss.clemson.cloudlab.us"/>
+    </services>
+    <interface client_id="interface-4" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode088:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40951" mac_address="02723d29f942">
+      <ip address="10.10.3.1" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="clnode088" hardware_type="c8220"/>
+    <host name="node-0.dctcp.cloudlab-PG0.clemson.cloudlab.us" ipv4="130.127.133.97"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-1" component_manager_id="urn:publicid:IDN+clemson.cloudlab.us+authority+cm" exclusive="true" component_id="urn:publicid:IDN+clemson.cloudlab.us+node+clnode086" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40942">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="clnode086.clemson.cloudlab.us" port="22" username="adk4270"/>
+      <emulab:console server="boss.clemson.cloudlab.us"/>
+    </services>
+    <interface client_id="interface-6" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode086:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40954" mac_address="025eb86ffcbb">
+      <ip address="10.10.4.1" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="clnode086" hardware_type="c8220"/>
+    <host name="node-1.dctcp.cloudlab-PG0.clemson.cloudlab.us" ipv4="130.127.133.95"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-2" component_manager_id="urn:publicid:IDN+clemson.cloudlab.us+authority+cm" exclusive="true" component_id="urn:publicid:IDN+clemson.cloudlab.us+node+clnode048" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40938">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="clnode048.clemson.cloudlab.us" port="22" username="adk4270"/>
+      <emulab:console server="boss.clemson.cloudlab.us"/>
+    </services>
+    <interface client_id="interface-2" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode048:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40948" mac_address="024f101309e8">
+      <ip address="10.10.2.1" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="clnode048" hardware_type="c8220"/>
+    <host name="node-2.dctcp.cloudlab-PG0.clemson.cloudlab.us" ipv4="130.127.133.57"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="client" component_manager_id="urn:publicid:IDN+clemson.cloudlab.us+authority+cm" exclusive="true" component_id="urn:publicid:IDN+clemson.cloudlab.us+node+clnode085" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40939">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="clnode085.clemson.cloudlab.us" port="22" username="adk4270"/>
+      <emulab:console server="boss.clemson.cloudlab.us"/>
+    </services>
+    <interface client_id="interface-0" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode085:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40945" mac_address="02d9ef85d57a">
+      <ip address="10.10.1.1" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="clnode085" hardware_type="c8220"/>
+    <host name="client.dctcp.cloudlab-PG0.clemson.cloudlab.us" ipv4="130.127.133.94"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="switch" component_manager_id="urn:publicid:IDN+clemson.cloudlab.us+authority+cm" exclusive="true" component_id="urn:publicid:IDN+clemson.cloudlab.us+node+clnode079" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40940">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/router.svg"/>
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="clnode079.clemson.cloudlab.us" port="22" username="adk4270"/>
+      <emulab:console server="boss.clemson.cloudlab.us"/>
+    </services>
+    <interface client_id="interface-1" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode079:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40946" mac_address="02ffb3a6a420">
+      <ip address="10.10.1.2" type="ipv4"/>
+    </interface>
+    <interface client_id="interface-3" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode079:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40949" mac_address="02d06326de32">
+      <ip address="10.10.2.2" type="ipv4"/>
+    </interface>
+    <interface client_id="interface-5" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode079:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40952" mac_address="028fe6799de7">
+      <ip address="10.10.3.2" type="ipv4"/>
+    </interface>
+    <interface client_id="interface-7" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode079:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40955" mac_address="02e4969251fd">
+      <ip address="10.10.4.2" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="clnode079" hardware_type="c8220"/>
+    <host name="switch.dctcp.cloudlab-PG0.clemson.cloudlab.us" ipv4="130.127.133.88"/>
+  </node>
+  <link xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="link-0" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40944" vlantag="258">
+    <emulab:link_multiplexing enabled="true"/>
+    <interface_ref client_id="interface-0" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode085:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40945"/>
+    <interface_ref client_id="interface-1" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode079:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40946"/>
+    <component_manager name="urn:publicid:IDN+clemson.cloudlab.us+authority+cm"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-0" dest_id="interface-1" capacity="1000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-1" dest_id="interface-0" capacity="1000000"/>
+  </link>
+  <link xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="link-1" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40947" vlantag="260">
+    <emulab:link_multiplexing enabled="true"/>
+    <interface_ref client_id="interface-2" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode048:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40948"/>
+    <interface_ref client_id="interface-3" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode079:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40949"/>
+    <component_manager name="urn:publicid:IDN+clemson.cloudlab.us+authority+cm"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-2" dest_id="interface-3" capacity="1000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-3" dest_id="interface-2" capacity="1000000"/>
+  </link>
+  <link xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="link-2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40950" vlantag="262">
+    <emulab:link_multiplexing enabled="true"/>
+    <interface_ref client_id="interface-4" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode088:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40951"/>
+    <interface_ref client_id="interface-5" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode079:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40952"/>
+    <component_manager name="urn:publicid:IDN+clemson.cloudlab.us+authority+cm"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-4" dest_id="interface-5" capacity="1000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-5" dest_id="interface-4" capacity="1000000"/>
+  </link>
+  <link xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="link-3" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40953" vlantag="263">
+    <emulab:link_multiplexing enabled="true"/>
+    <interface_ref client_id="interface-6" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode086:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40954"/>
+    <interface_ref client_id="interface-7" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode079:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+40955"/>
+    <component_manager name="urn:publicid:IDN+clemson.cloudlab.us+authority+cm"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-6" dest_id="interface-7" capacity="1000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-7" dest_id="interface-6" capacity="1000000"/>
+  </link>
+  <rspec_tour xmlns="http://www.protogeni.net/resources/rspec/ext/apt-tour/1">
+    <description type="markdown">4 bare metal PCs connected via switch, with 1Gbps on each link. All 5 nodes are bare-metal nodes.</description>
+  </rspec_tour>
+  <rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1">
+    <rs:location country="US" latitude="34.586496" longitude="-82.821457"/>
+  </rs:site_info>
+</rspec>
