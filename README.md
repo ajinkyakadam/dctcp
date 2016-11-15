@@ -1,6 +1,7 @@
 # Instructions to Reproduce DCTCP project
 
 Instructions to Reproduce
+* The below instructions describe the steps to reproduce the results in [Data Center TCP](http://dl.acm.org/citation.cfm?id=1851192) paper. Please note that we have used a scaled down version of the topology 
 * Total time needed to run the following set of experiments will be around 2 hours (excluding the time required to reserve resources). 
 * Sometimes it is hard to get the resources up and running. Hence I am not mentioning this time explicitly as it may vary upon the current load on the aggregates 
 
